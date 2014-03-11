@@ -3,6 +3,7 @@
 echo "request_id=$REQUEST_ID"
 echo -n "Going to sleep forever"
 while true; do
+   sleep 1
    echo -n '.'
 done
 #sleep 10
