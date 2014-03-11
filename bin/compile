@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
 echo "request_id=$REQUEST_ID"
-echo -n "Going to sleep..."
-sleep 10
-echo " done"
-exit 0
+echo -n "Going to sleep forever"
+while true; do
+   echo -n '.'
+done
+#sleep 10
+#echo " done"
+#exit 0
